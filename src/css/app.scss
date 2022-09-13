@@ -1,0 +1,56 @@
+// app global css in SCSS form
+
+.q-field__control:before,
+.q-field__control:after {
+  content: '';
+}
+
+.q-header {
+  height: 80px;
+  border-bottom-left-radius: 70% 70%;
+  border-bottom-right-radius: 70% 70%;
+}
+.q-layout__shadow:after {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.q-card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.logo {
+  width: 100px;
+  padding-bottom: 15rem;
+}
+.alert-keyword {
+  color: white;
+}
+.search {
+  background-color: white;
+}
+.search,
+.submit {
+  border: none;
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px 0;
+  width: 300px;
+}
+.submit {
+  height: 40px;
+  margin-top: 15px;
+  background-color: #be82f7;
+  color: white;
+}
+
+.img {
+  height: 5rem;
+}
+.title {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.album {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
